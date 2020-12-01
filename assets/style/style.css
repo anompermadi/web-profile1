@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+body{
+    font-family: "Ubuntu";
+    text-align: center;
+}
+
+.jumbotron{
+    padding: 50px;
+}
+
+nav li{
+    display: inline;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+nav ul{
+    padding-left: 0%;
+}
+
+nav a:hover{
+    font-weight: bold;
+    color: blue;
+    text-decoration: none;
+}
+
+main h2{
+    font-weight: bold;
+    text-shadow: 4px 2px 3px #77f;
+    padding-bottom: 10px;
+}
+
+.box{
+    -webkit-box-shadow: 3px -2px 10px -1px rgba(0,0,0,0.31);
+    -moz-box-shadow: 3px -2px 10px -1px rgba(0,0,0,0.31);
+    box-shadow: 3x -2px 10px -1px rgba(0,0,0,0.31);
+    margin: 5px;
+    padding: 20px;
+}
+
+.box p{
+    padding-top: 20px;
+}
+
+.container{
+    width: 75%;
+    float: left;
+    text-align: justify;
+}
+
+.container img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+main{
+    padding: 20px;
+    overflow: auto;
+}
+
+aside{
+    width: 25%;
+    float: right;
+    text-align: center;
+    
+}
+
+aside h3{
+    font-weight: bold;
+    text-shadow: 2px 2px 3px rgb(232, 49, 238);
+}
+
+.profile img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    padding: 10px; 
+}
+
+footer{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+@media screen and (max-width:1000px){
+    .container,
+    aside{
+        width: 100%;
+        padding: 0;
+    }
+
+    .container{
+        text-align: left;
+    }
+
+    nav{
+        background-color: rgb(221, 219, 219);
+        padding: 5px;
+        position: sticky;
+        top: 0;
+    }
+
+    header{
+        display: inline;
+    }
+}
